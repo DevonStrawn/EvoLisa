@@ -11,7 +11,7 @@ namespace GenArt.Classes
         public static string XmlExtension = "xml files (*.xml)|*.xml|All files (*.*)|*.*";
         public static string SVGExtension = "svg files (*.svg)|*.svg|All files (*.*)|*.*";
         public static string DnaExtension = "dna files (*.dna)|*.dna|xml files (*.xml)|*.xml|All files (*.*)|*.*";
-        public static string ImgExtension = "gif files (*.gif)|*.gif|bmp files (*.bmp)|*.bmp|jpg files (*.jpg)|*.jpg|jpeg files (*.jpeg)|*.jpeg|All files (*.*)|*.*";
+        public static string ImgExtension = "All image files|*.png;*.gif;*.jpg;*.bmp|gif files (*.gif)|*.gif|bmp files (*.bmp)|*.bmp|jpg files (*.jpg)|*.jpg|jpeg files (*.jpeg)|*.jpeg|png files (*.png)|*.png|All files (*.*)|*.*";
         public static string PNGExtension = "png files (*.png)|*.svg|All files (*.*)|*.*";
 
         public static string GetSaveFileName(string filter)
