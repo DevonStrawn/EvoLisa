@@ -1,0 +1,4 @@
+
+# Ignore generated binaries folders anywhere in the project.
+**/bin/
+**/obj/
