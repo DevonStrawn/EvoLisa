@@ -40,7 +40,7 @@ namespace GenArt.AST
 
         public String getBrushString()
         {
-            return "fill:#" + Red.ToString("X") + Green.ToString("X") + Blue.ToString("X") + ";fill-opacity:" + Alpha / 255.0;
+            return "fill:#" + Red.ToString("X2") + Green.ToString("X2") + Blue.ToString("X2") + ";fill-opacity:" + Alpha / 255.0;
         }
 
         public void Mutate(DnaDrawing drawing)
