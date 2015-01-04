@@ -2,3 +2,8 @@
 # Ignore generated binaries folders anywhere in the project.
 **/bin/
 **/obj/
+
+**/*.csproj.user
+**/*.resharper.user
+**/*.suo
+
