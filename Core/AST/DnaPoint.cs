@@ -19,11 +19,9 @@ namespace GenArt.AST
 
         public DnaPoint Clone()
         {
-            return new DnaPoint
-                       {
-                           X = X,
-                           Y = Y,
-                       };
+            DnaPoint point = new DnaPoint			{                X = X,				Y = Y,
+				tool = this.tool,
+            };            return point;
         }
 
         public void Mutate(DnaDrawing drawing)
